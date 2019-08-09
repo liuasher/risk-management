@@ -1,0 +1,31 @@
+spring:
+  profiles:
+    active: dev2
+
+
+
+
+
+#server:
+#  port: 3002  #Tomcat端口
+#
+#spring:
+#  datasource:
+#    url: jdbc:mysql://192.168.3.15:3306/credit?characterEncoding=UTF-8
+#    username: admin
+#    password: admin
+#    driver-class-name: com.mysql.jdbc.Driver
+#  jpa:
+#    database: MYSQL
+#    show-sql: false
+#    #RabbitMQ
+#
+##日志级别
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        data: INFO
+#    com:
+#      zc:
+#        loan: DEBUG
